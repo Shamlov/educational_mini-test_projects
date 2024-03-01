@@ -1,0 +1,130 @@
+/*null*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 700px;
+  margin: 0 auto;
+}
+
+/* 1 вариант с изображением добавленным через фон в css  изображение самостоятельно центрируется*/
+.main {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.left {
+  background-color: rgb(123, 197, 142);
+}
+
+.right {
+  background-color: blue;
+  background-image: url(vertical_image_test.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+/* 2 вариант с картинкой заданной через HTML <img src="horizontal_image_test.jpg" alt="" />
+.main {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.left {
+  background-color: rgb(123, 197, 142);
+}
+
+.right {
+  background-color: blue;
+  position: relative;
+  overflow: hidden;
+}
+
+.right-inner {
+  position: absolute;
+  тут регулируем положение картинки т.к. она самостоятельно не может центрироваться
+  top:-50%; 
+}
+
+img {
+  width: 100%;
+  насторйкой ниже можем вручную растянуть картинку вниз т.к. она автоматически  не подстраивается под высоту 
+  height: 300px;
+  object-fit: cover;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .left {
+  background-color: rgb(123, 197, 142);
+}
+
+.right {
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+}
+
+.right-inner {
+  background-image: url(Изображение\ WhatsApp\ 2024-02-29\ в\ 11.11.03_fa1a8c0f.jpg);
+  width: 200px;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+  display: block;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+} */
+
+
+
+
+
+
+
+
+
+
+

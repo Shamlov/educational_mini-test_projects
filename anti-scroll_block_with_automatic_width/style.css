@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+.helper {
+  width: 900px;
+  margin: 0 auto;
+  font-size: 2rem;
+  line-height: 2;
+}
+
+
+.main {
+  display: flex;
+  position: relative;
+}
+.left {
+  align-self: flex-start;
+  position: sticky;
+  left: 0;
+  top: 0;
+  height: 100vh;  
+  background-color: #7f96a9;
+}
+.right {
+  background-color: #caa1a1;
+  flex-grow: 1;
+}
