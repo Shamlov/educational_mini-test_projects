@@ -1,0 +1,97 @@
+.wrapper {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: rgb(214, 214, 214);
+  font-size: 1.2rem;
+  height: 100vh;
+}
+
+/* ////////////////////////////////////////////////////////// */
+
+.word_wrap {
+  overflow-wrap: break-word;
+
+  /* hyphens: auto; */
+  background-color: rgb(255, 208, 151);
+}
+
+/* //////////////////////////////////////////////////////////////// */
+
+.one-liner_text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  height: 100px;
+  background-color: rgb(172, 255, 151);
+}
+
+/* //////////////////////////////////////////////////////////////////// */
+
+.multi-line_text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+
+  background-color: rgb(151, 208, 255);
+
+  /* внимание!!!  падинг или высота откроют текст */
+  /* padding-bottom: 30px; */
+  /* height: 100px; */
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+
+.flex {
+  display: flex;
+}
+
+.text-block {
+  min-width: 0;
+    /* если флекс. но необходимо задавать параметр  min-width: 0; */
+
+    background-color: rgb(253, 147, 147);
+}
+
+.text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+
+  background-color: rgb(166, 246, 219);
+}
+
+.fix-width {
+  width: 100px;
+  background-color: rgb(255, 212, 212);
+}
+
+/* ///////////////////////////////////////////////////////////// */
+
+.flex1 {
+  display: flex;
+}
+
+.text-block1 {
+  min-width: 0;
+  /* если флекс. но необходимо задавать параметр  min-width: 0; */
+
+  background-color: rgb(253, 147, 147);
+}
+
+.text1 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+
+  background-color: rgb(166, 246, 219);
+}
+
+.fix-width1 {
+  width: 100px;
+
+  background-color: rgb(255, 212, 212);
+}
+
